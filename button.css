@@ -1,0 +1,26 @@
+body {
+    width: 200px;
+}
+button {
+    padding: 5px 10px;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+}
+button:hover {
+    background-color: lightgray;
+}
+button:active {
+    background-color: gray;
+}
+
+button.current {
+    box-shadow: 0 0 0 2px white,
+    0 0 0 4px black;
+}
+
+textarea {
+    resize: vertical;
+    width: 99%;
+}

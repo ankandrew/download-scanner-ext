@@ -2,5 +2,11 @@
   "name": "Downloads Scanner",
   "description": "Scan downloaded files for possible malware against 50+ different anti-viruses",
   "version": "1.0.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
